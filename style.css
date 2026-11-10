@@ -69,9 +69,9 @@ nav a:hover, nav a:focus-visible { border-color: var(--ink); outline: none; }
   padding: 7px 16px;
   border-radius: 999px;
   background: var(--chip);
-  color: var(--muted);
-  font-family: Georgia, "Times New Roman", serif;
-  font-style: italic;
-  font-size: 0.95rem;
-  letter-spacing: 0.01em;
+  color: var(--ink);
+  opacity: 0.8;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
 }
